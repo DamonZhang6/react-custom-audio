@@ -1,7 +1,5 @@
 # react-custom-audio
 
----
-
 ## Install
 
 ```bash
