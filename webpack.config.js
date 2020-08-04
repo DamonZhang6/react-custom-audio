@@ -113,9 +113,9 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   config = {
     ...base,
-    entry: path.join(__dirname, 'example/src/index.tsx'),
+    entry: path.join(__dirname, 'examples/src/index.tsx'),
     output: {
-      path: path.join(__dirname, 'example/dist'),
+      path: path.join(__dirname, 'examples/dist'),
       filename: 'bundle.js',
       library: 'library',
       libraryTarget: 'umd',
@@ -124,7 +124,7 @@ if (process.env.NODE_ENV === 'production') {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: path.join(__dirname, './example/src/index.html'),
+        template: path.join(__dirname, './examples/src/index.html'),
         filename: 'index.html',
       }),
     ],
