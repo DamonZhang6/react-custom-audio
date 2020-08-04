@@ -1,5 +1,7 @@
 # react-custom-audio
 
+[![NPM version](https://img.shields.io/npm/v/react-custom-audio)](https://www.npmjs.com/package/react-custom-audio)
+
 ## Install
 
 ```bash
